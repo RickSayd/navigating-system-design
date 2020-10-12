@@ -35,17 +35,17 @@ Let’s assume we have 1.5 billion total users, 800 million of whom are daily ac
 
 Let’s assume our upload:view ratio is 1:200, i.e., for every video upload we have 200 videos viewed, giving us 230 videos uploaded per second.
 
-#### <div align="center"46K / 200 => 230 videos/sec</div>
+#### <div align="center">46K / 200 => 230 videos/sec</div>
 
 **Storage Estimates**: Let’s assume that every minute 500 hours worth of videos are uploaded to Youtube. If on average, one minute of video needs 50MB of storage (videos need to be stored in multiple formats), the total storage needed for videos uploaded in a minute would be:
 
-#### <div align="center"500 hours * 60 min * 50MB => 1500 GB/min (25 GB/sec)</div>
+#### <div align="center">500 hours * 60 min * 50MB => 1500 GB/min (25 GB/sec)</div>
 
 These numbers are estimated with ignoring video compression and replication, which would change our estimates.
 
 **Bandwidth estimates**: With 500 hours of video uploads per minute and assuming each video upload takes a bandwidth of 10MB/min, we would be getting 300GB of uploads every minute.
 
-#### <div align="center"500 hours * 60 mins * 10MB => 300GB/min (5GB/sec)</div>
+#### <div align="center">500 hours * 60 mins * 10MB => 300GB/min (5GB/sec)</div>
 
 Assuming an upload:view ratio of 1:200, we would need 1TB/s outgoing bandwidth.
 
