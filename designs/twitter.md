@@ -55,10 +55,10 @@ Not all tweets will have media, let’s assume that on average every fifth tweet
 
 Remember that we have 28B tweet views per day. We must show the photo of every tweet (if it has a photo), but let’s assume that the users watch every 3rd video they see in their timeline. So, total egress will be:
 
-#### <div align="center">(28B * 280 bytes) / 86400s of text => 93MB/s</div>
-#### <div align="center">+ (28B/5 * 200KB ) / 86400s of photos => 13GB/S</div>
-#### <div align="center">+ (28B/10/3 * 2MB ) / 86400s of Videos => 22GB/s</div>
-#### <div align="center">Total ~= 35GB/s</div>
+#### <div align="center">(28B * 280 bytes) / 86400s of text => 93MB/day</div>
+#### <div align="center">+ (28B/5 * 200KB ) / 86400s of photos => 13GB/day</div>
+#### <div align="center">+ (28B/10/3 * 2MB ) / 86400s of Videos => 22GB/day</div>
+#### <div align="center">Total ~= 35GB/day</div>
 
 ## 4. System APIs
 ### 💡 Once we've finalized the requirements, it's always a good idea to define the system APIs. This should explicitly state what is expected from the system.
