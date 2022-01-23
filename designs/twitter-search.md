@@ -48,7 +48,7 @@ A JSON containing information about a list of tweets matching the search query. 
 
 At the high level, we need to store all the statues in a database and also build an index that can keep track of which word appears in which tweet. This index will help us quickly find tweets that users are trying to search.
 
-![](../img/twitter-search-1.md)
+![](../img/twitter-search-1.png)
 
 #### <div align="center">High level design for Twitter search</div>
 
